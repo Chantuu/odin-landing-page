@@ -3,6 +3,28 @@ body {
     margin: 0px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+
+    /* Removes default margins on h1 */
+    margin: 0px;
+}
+
+p, .navbar a {
+    color: #E5E7EB;
+    font-size: 18px;
+
+    /* Removes default margins on p */
+    margin: 0px;
+}
+
 .section {
     padding: 30px 140px 70px 140px;
 }
@@ -30,8 +52,34 @@ body {
 }
 
 .navbar a {
-    color: #E5E7EB;
-    font-size: 18px;
     font-weight: normal;
     text-decoration: none;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.content.hero {
+    margin-top: 72px;
+}
+
+.left-side {
+    margin-top: 7vh;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+.right-side {
+    max-width: 700px;
+}
+
+.hero-button {
+    margin-top: 30px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
