@@ -11,10 +11,17 @@ img {
 h1 {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 
     /* Removes default margins on h1 */
     margin: 0px;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
 }
 
 p, .navbar a {
@@ -82,4 +89,21 @@ p, .navbar a {
     border: none;
     border-radius: 8px;
     padding: 10px 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-border {
+    border: 3px solid #3882F6;
+    border-radius: 7px;
+    width: 140px;
+    height: 160px;
+}
+
+.card-text {
+    color: #1F2937;
 }
