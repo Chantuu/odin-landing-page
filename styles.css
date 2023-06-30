@@ -122,3 +122,20 @@ p, .navbar a {
     color: #1F2937;
     text-align: center;
 }
+
+.section.quote {
+    padding-top: 94px;
+    background-color: #E5E7EB;
+    text-align: right;
+}
+
+.section.quote p {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+.logo.black, .section.quote p {
+    color: #1F2937;
+}
