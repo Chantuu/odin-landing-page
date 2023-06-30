@@ -163,3 +163,16 @@ p, .navbar a {
 .button.cto {
     margin-top: 3px;
 }
+
+.section.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 37px;
+}
+
+.footer-link {
+    color: #fffeb7;
+    font-size: 18px;
+    text-decoration: none;
+}
