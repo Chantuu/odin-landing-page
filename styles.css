@@ -84,12 +84,19 @@ p, .navbar a {
     max-width: 700px;
 }
 
-.hero-button {
+.button {
     margin-top: 30px;
-    background-color: #3882F6;
-    border: none;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
     border-radius: 8px;
     padding: 10px 20px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.button.hero {
+    border: none;
+    background-color: #3882F6;
 }
 
 .cards {
