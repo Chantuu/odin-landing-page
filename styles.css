@@ -85,7 +85,6 @@ p, .navbar a {
 }
 
 .button {
-    margin-top: 30px;
     background-color: transparent;
     border: 2px solid #F9FAF8;
     border-radius: 8px;
@@ -95,6 +94,7 @@ p, .navbar a {
 }
 
 .button.hero {
+    margin-top: 30px;
     border: none;
     background-color: #3882F6;
 }
@@ -145,4 +145,21 @@ p, .navbar a {
 
 .logo.black, .section.quote p {
     color: #1F2937;
+}
+
+.content.cto {
+    background-color: #3882F6;
+    align-items: center;
+    padding: 30px;
+    border-radius: 9px;
+}
+
+.cto-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 11px;
+}
+
+.button.cto {
+    margin-top: 3px;
 }
