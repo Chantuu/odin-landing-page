@@ -22,6 +22,7 @@ h2 {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    margin-bottom: 57px;
 }
 
 p, .navbar a {
@@ -93,17 +94,31 @@ p, .navbar a {
 
 .cards {
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 190px;
+    display:flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 13px;
 }
 
 .icon-border {
     border: 3px solid #3882F6;
     border-radius: 7px;
-    width: 140px;
     height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-border img {
+    width: 100px;
 }
 
 .card-text {
     color: #1F2937;
+    text-align: center;
 }
