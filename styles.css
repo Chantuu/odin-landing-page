@@ -176,3 +176,18 @@ p, .navbar a {
     font-size: 18px;
     text-decoration: none;
 }
+
+.navbar.sec {
+    background-color: #1F2937;
+    padding: 30px 140px 20px;
+}
+
+.about-page-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section.about {
+    flex: 1;
+}
