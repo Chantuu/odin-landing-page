@@ -183,11 +183,35 @@ p, .navbar a {
 }
 
 .about-page-container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .section.about {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abouth2 {
+    margin-bottom: 42px;
+
+}
+
+.about-paragraph {
+    color: #1F2937;
+    text-align: center;
+}
+
+.about-paragraph.last {
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.about-paragraph.link {
+    color: #9e9b00;
+    text-decoration: none;
 }
